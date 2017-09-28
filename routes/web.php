@@ -17,6 +17,9 @@ Route::get('/', function () {
 Route::get('tes2', function(){
 	echo "ok";
 });
+Route::get('tes3', function(){
+	echo "ok2";
+});
 Route::get('administrator', function(){
 	return view('login');
 });
