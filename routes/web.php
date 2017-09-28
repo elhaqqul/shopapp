@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('index');
 });
+Route::get('tes2', function(){
+	echo "ok";
+});
 Route::get('administrator', function(){
 	return view('login');
 });
